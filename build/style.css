@@ -1,0 +1,91 @@
+
+body{
+   
+    font-family: "Lato",sans-serif;
+}
+.box-task .task{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    min-height: 40px;
+    color: white;
+    padding: 0 10px;
+    font-weight: 500;
+}
+label{
+    display: flex;
+    position: relative;
+    flex: 0.5;
+    
+}
+
+label .checked{
+    text-decoration: line-through;
+}
+
+input[type=checkbox]{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.ic-type{
+    cursor: pointer;
+}
+.type{
+    padding: 5px 0;
+    position: relative;
+    
+    
+    
+}
+.task{
+    
+    background-color: black;
+   
+    
+}
+.type .menu-type {
+    list-style: none;
+    position: absolute;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+    right: -5px;
+    transform: translateY(-12px);
+    transition: 0.3s ease;
+    transform: scale(0);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.741);
+    
+  
+    
+   
+}
+.type .menu-type.start{
+   transform: scale(1);
+   transform: translateY(-12px);
+}
+.menu-type li {
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.menu-type li:hover {
+    background-color:#936A4A ;
+}
+.menu-type li i {
+    margin-right: 5px;
+}
+.menu-type li:last-child{
+   margin-bottom: 0;
+   border-bottom: none;
+}
+
+
+
+    
